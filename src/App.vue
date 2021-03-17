@@ -154,6 +154,7 @@
     scrollbar-width: none; /* Firefox */
     max-height: 0;
     transition: max-height 0.1s linear;
+
     overflow-y: scroll;
     @apply text-dark-greyish-blue;
   }
@@ -172,6 +173,7 @@
   }
 
   .hidden-radio:checked ~ .hidden-answer {
+    transition-delay: 0.18s;
     max-height: 30vh;
   }
   .hidden-radio:checked ~ .question {
